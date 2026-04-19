@@ -60,58 +60,130 @@ labels_display = {
 }
 
 
-def stars(p_fdr):
+def sig_tier(p_raw, p_fdr):
+    """3-tier significance: 'fdr' | 'raw' | 'ns'."""
+    if pd.notna(p_fdr) and p_fdr < 0.05: return "fdr"
+    if pd.notna(p_raw) and p_raw < 0.05: return "raw"
+    return "ns"
+
+
+def stars_fdr(p_fdr):
     if pd.isna(p_fdr): return ""
     if p_fdr < 0.001: return "***"
-    if p_fdr < 0.01: return "**"
-    if p_fdr < 0.05: return "*"
+    if p_fdr < 0.01:  return "**"
+    if p_fdr < 0.05:  return "*"
     return ""
 
 
-fig, ax = plt.subplots(figsize=(10, 5.8))
+def p_label(p_raw, p_fdr, tier):
+    """Annotation next to each point — shows FDR stars OR raw p† for marginal effects."""
+    if tier == "fdr":
+        return stars_fdr(p_fdr)
+    if tier == "raw":
+        # Use dagger to mark "uncorrected only" - standard in meta-analytic forest plots
+        if p_raw < 0.01: return "††"
+        return "†"
+    return ""
+
+
+fig, ax = plt.subplots(figsize=(10.5, 6.2))
 y = np.arange(len(eff))
-offset = 0.18
+offset = 0.20
 RED = "#c44e52"
 BLUE = "#4c72b0"
 
+# Visual tiers
+STYLE = {
+    "fdr": dict(alpha=1.0, mfc_mode="solid", edge_lw=0, ebar_lw=2.0),
+    "raw": dict(alpha=0.95, mfc_mode="hollow", edge_lw=1.8, ebar_lw=1.6),
+    "ns":  dict(alpha=0.35, mfc_mode="solid", edge_lw=0, ebar_lw=1.2),
+}
+
+
+def draw_point(ax, x, y, ci, color, marker, tier, size):
+    st = STYLE[tier]
+    mfc = "white" if st["mfc_mode"] == "hollow" else color
+    ax.errorbar(x, y, xerr=ci,
+                fmt=marker, markersize=size,
+                markerfacecolor=mfc,
+                markeredgecolor=color,
+                markeredgewidth=st["edge_lw"],
+                color=color,
+                alpha=st["alpha"],
+                elinewidth=st["ebar_lw"],
+                capsize=0)
+
+
 for i, row in eff.iterrows():
-    # Anxiety (red)
-    alpha_a = 1.0 if row["p_Anxiety_FDR"] < 0.05 else 0.4
-    ax.errorbar(row["Beta_Anxiety"], y[i] + offset, xerr=row["CI_Anx"],
-                fmt="o", markersize=9, color=RED, alpha=alpha_a,
-                elinewidth=1.5, capsize=0,
-                label="PHQ-4 Anxiety" if i == 0 else "")
-    s = stars(row["p_Anxiety_FDR"])
-    if s:
-        ax.text(row["Beta_Anxiety"] + row["CI_Anx"] + 0.02, y[i] + offset,
-                s, ha="left", va="center", color=RED, fontsize=11, fontweight="bold")
+    tier_a = sig_tier(row["p_Anxiety"], row["p_Anxiety_FDR"])
+    tier_d = sig_tier(row["p_Depression"], row["p_Depression_FDR"])
 
-    # Depression (blue diamond)
-    alpha_d = 1.0 if row["p_Depression_FDR"] < 0.05 else 0.4
-    ax.errorbar(row["Beta_Depression"], y[i] - offset, xerr=row["CI_Dep"],
-                fmt="D", markersize=8, color=BLUE, alpha=alpha_d,
-                elinewidth=1.5, capsize=0,
-                label="PHQ-4 Depression" if i == 0 else "")
-    s = stars(row["p_Depression_FDR"])
-    if s:
-        ax.text(row["Beta_Depression"] + row["CI_Dep"] + 0.02, y[i] - offset,
-                s, ha="left", va="center", color=BLUE, fontsize=11, fontweight="bold")
+    draw_point(ax, row["Beta_Anxiety"], y[i] + offset, row["CI_Anx"],
+               RED, "o", tier_a, 10)
+    lbl = p_label(row["p_Anxiety"], row["p_Anxiety_FDR"], tier_a)
+    if lbl:
+        ax.text(row["Beta_Anxiety"] + row["CI_Anx"] + 0.015, y[i] + offset,
+                lbl, ha="left", va="center", color=RED,
+                fontsize=12, fontweight="bold")
 
-ax.axvline(0, color="black", linewidth=1, alpha=0.4)
+    draw_point(ax, row["Beta_Depression"], y[i] - offset, row["CI_Dep"],
+               BLUE, "D", tier_d, 9)
+    lbl = p_label(row["p_Depression"], row["p_Depression_FDR"], tier_d)
+    if lbl:
+        ax.text(row["Beta_Depression"] + row["CI_Dep"] + 0.015, y[i] - offset,
+                lbl, ha="left", va="center", color=BLUE,
+                fontsize=12, fontweight="bold")
+
+# Reference line at 0
+ax.axvline(0, color="black", linewidth=1.1, alpha=0.5)
+
+# Shaded background bands to separate outcomes
+for i in range(len(eff)):
+    if i % 2 == 0:
+        ax.axhspan(i - 0.45, i + 0.45, color="#f7f7f7", zorder=-1)
+
 ax.set_yticks(y)
-ax.set_yticklabels([labels_display[a] for a in eff["AI_Attitude"]])
+ax.set_yticklabels([labels_display[a] for a in eff["AI_Attitude"]], fontsize=11)
 ax.invert_yaxis()
 ax.set_xlabel(r"Standardized Beta Coefficient ($\beta$) $\pm$ 95% CI", fontsize=11)
-ax.set_xlim(-0.4, 0.6)
+ax.set_xlim(-0.42, 0.65)
+ax.set_ylim(len(eff) - 0.5, -0.5)
 n = pd.read_csv(REG_DIR / "00_merged_analysis_data.csv").shape[0]
 ax.set_title(f"How PHQ-4 Mental Health Predicts ChatGPT Experiences (N={n})",
-             fontsize=13, fontweight="bold")
-ax.legend(loc="lower right", frameon=True)
+             fontsize=13, fontweight="bold", pad=12)
+
+# Custom legend: predictor colors + significance tiers
+from matplotlib.lines import Line2D
+pred_handles = [
+    Line2D([0], [0], marker="o", color="w", markerfacecolor=RED, markersize=10,
+           markeredgecolor=RED, markeredgewidth=0, label="PHQ-4 Anxiety"),
+    Line2D([0], [0], marker="D", color="w", markerfacecolor=BLUE, markersize=9,
+           markeredgecolor=BLUE, markeredgewidth=0, label="PHQ-4 Depression"),
+]
+sig_handles = [
+    Line2D([0], [0], marker="o", color="w", markerfacecolor="#555", markersize=10,
+           label="FDR-significant (*)"),
+    Line2D([0], [0], marker="o", color="w", markerfacecolor="white",
+           markeredgecolor="#555", markeredgewidth=1.8, markersize=10,
+           label="Uncorrected p<.05 (†)"),
+    Line2D([0], [0], marker="o", color="w", markerfacecolor="#555", alpha=0.35,
+           markersize=10, label="Not significant"),
+]
+leg1 = ax.legend(handles=pred_handles, loc="lower right", frameon=True,
+                 title="Predictor", fontsize=9, title_fontsize=9,
+                 bbox_to_anchor=(0.995, 0.02))
+ax.add_artist(leg1)
+ax.legend(handles=sig_handles, loc="lower right", frameon=True,
+          title="Significance", fontsize=9, title_fontsize=9,
+          bbox_to_anchor=(0.78, 0.02))
+
 for spine in ("top", "right"):
     ax.spines[spine].set_visible(False)
-ax.grid(axis="x", alpha=0.25)
+ax.grid(axis="x", alpha=0.25, linestyle="-", linewidth=0.5)
 
-fig.text(0.5, -0.02, "*p<.05, **p<.01, ***p<.001, FDR-corrected",
+fig.text(0.5, -0.01,
+         "* p_FDR<.05, ** p_FDR<.01, *** p_FDR<.001   "
+         "† p<.05 uncorrected, †† p<.01 uncorrected",
          ha="center", fontsize=9, style="italic")
 
 plt.tight_layout()
