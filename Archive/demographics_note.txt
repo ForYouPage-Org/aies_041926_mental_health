@@ -1,0 +1,24 @@
+ECR Sample (N=197)
+Source	Matched	Valid Data	CONSENT_REVOKED	Not Found
+Prolific Demographics	187/197	173 (87.8%)	14 (7.1%)	10 (5.1%)
+Survey Data	197/197	196 Age	-	1 missing Age
+
+Demographics Summary (N=173-196)
+Variable	N	Summary
+Age	196/197	M = 21.82 (SD = 2.28), Range: 18-29
+Sex	173	Female 50.3%, Male 49.7%
+Ethnicity	173	White 41.6%, Black 32.4%, Asian 15.0%, Mixed 6.9%
+Country	173	USA 28.9%, South Africa 23.1%, UK 12.7%, Canada 8.7%
+
+
+Student	165	Yes 71.5%, No 28.5%
+Employment	166	Part-Time 49.4%, Full-Time 42.2%
+
+
+Unmatched 10 IDs (Non-standard Prolific IDs)
+These appear to be test/pilot participants with non-standard IDs:
+10293847, 42069690, 49208488, 85777469, 96473987, 98769876
+Modibachantel@gmail.com, modibachantel@gmail.com
+67571d17f2c31e0acace38a2@email.prolific.com
+682a50d2769e21e578e1c3d4
+All 10 have valid age data from survey (ages 18-25).

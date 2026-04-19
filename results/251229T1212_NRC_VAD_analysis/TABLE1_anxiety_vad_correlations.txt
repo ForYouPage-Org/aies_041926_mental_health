@@ -1,0 +1,21 @@
+================================================================================
+TABLE 1: Attachment Anxiety × NRC VAD Dimensions
+================================================================================
+N = 105 participants
+NRC VAD Lexicon v2.1 (Mohammad, 2025)
+FDR correction applied (Benjamini-Hochberg)
+--------------------------------------------------------------------------------
+
+VAD Dimension                    r          p    Sig      p_FDR    FDR       R²
+--------------------------------------------------------------------------------
+Mean Valence                 0.225     0.0212      *     0.0653     ns    0.050
+Mean Arousal                 0.224     0.0218      *     0.0653     ns    0.050
+Mean Dominance               0.097     0.3259     ns     0.3911     ns    0.009
+Valence Variability         -0.001     0.9941     ns     0.9941     ns    0.000
+Arousal Variability         -0.143     0.1442     ns     0.2884     ns    0.021
+Dominance Variability       -0.120     0.2245     ns     0.3367     ns    0.014
+--------------------------------------------------------------------------------
+
+Note: Valence (-1=negative, +1=positive), Arousal (-1=calm, +1=excited),
+      Dominance (-1=weak/submissive, +1=powerful/in-control)
+      *** p<.001, ** p<.01, * p<.05

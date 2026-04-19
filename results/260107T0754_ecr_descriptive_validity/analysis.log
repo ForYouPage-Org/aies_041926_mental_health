@@ -1,0 +1,22 @@
+ECR Descriptive & Validity Analysis Log
+========================================
+Timestamp: 2026-01-07 07:54:24
+
+Data Sources:
+- ECR Validated: /Users/marxw/Sirius/FaccT_122925/data/ecr_scores_validated_clean.csv
+- ECR Detailed: /Users/marxw/Sirius/data/ecr_scores_detailed.csv
+- Survey: /Users/marxw/Sirius/data/survey_scored.csv
+- Demographics: 7 files from /Users/marxw/Sirius/FaccT_122925/data/demographics
+
+Sample:
+- Total ECR participants: 197
+- Demographics matched: 187
+
+Results:
+- ECR Anxiety: M = 4.096, SD = 1.103
+- ECR Avoidance: M = 3.200, SD = 0.999
+- Cronbach's α (Anxiety): 0.698
+- Cronbach's α (Avoidance): 0.694
+- Subscale correlation: r = 0.403
+
+Output: /Users/marxw/Sirius/FaccT_122925/results/260107T0754_ecr_descriptive_validity

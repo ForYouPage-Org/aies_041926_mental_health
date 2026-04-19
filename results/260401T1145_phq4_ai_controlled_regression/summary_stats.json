@@ -1,0 +1,40 @@
+{
+  "N": 158,
+  "n_variables": 5,
+  "variables": [
+    "Emotional_Engagement_Comp",
+    "Self_Efficacy_Comp",
+    "Behavior_Change_Comp",
+    "Trust_Single",
+    "Dependency_Single"
+  ],
+  "predictors": [
+    "PHQ4_Anxiety",
+    "PHQ4_Depression"
+  ],
+  "N_gender_observed": 120,
+  "N_gender_imputed": 38,
+  "PHQ4_Anxiety_M": 2.588607594936709,
+  "PHQ4_Anxiety_SD": 1.7921617975874162,
+  "PHQ4_Depression_M": 1.9050632911392404,
+  "PHQ4_Depression_SD": 1.5711895557737579,
+  "Age_M": 21.658227848101266,
+  "Age_SD": 2.2254238897692837,
+  "Gender_pct_female": 49.16666666666667,
+  "Frequency_M": 3.5569620253164556,
+  "Frequency_SD": 0.4983242093828258,
+  "n_sig_anxiety_zeroorder_FDR": 0,
+  "n_sig_depression_zeroorder_FDR": 1,
+  "n_sig_anxiety_controlled_FDR": 0,
+  "n_sig_depression_controlled_FDR": 0,
+  "n_sig_delta_r2_FDR": 0,
+  "max_delta_r2": 0.04262113474251551,
+  "timestamp": "2026-04-01T11:45:04.036716",
+  "group_alphas": {
+    "Emotional Engagement": 0.878,
+    "Trust & Verification": 0.323,
+    "Dependency": 0.54,
+    "Self-Efficacy": 0.704,
+    "Behavioral Change": 0.701
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-03-22T23:39:19.542705",
+  "sampling_strategy": "exclusive_attachment_groups",
+  "random_seed": 42,
+  "anxiety_threshold": 4.666666666666667,
+  "avoidance_threshold": 4.0,
+  "n_high_anxiety_participants": 49,
+  "n_high_avoidance_participants": 31,
+  "n_overlap_participants": 13,
+  "n_anxiety_only_participants": 36,
+  "n_avoidance_only_participants": 18,
+  "anxiety_only_conversations_available": 2658,
+  "avoidance_only_conversations_available": 649,
+  "anxiety_conversations_sampled": 100,
+  "anxiety_messages_total": 559,
+  "anxiety_participants_sampled": 15,
+  "avoidance_conversations_sampled": 100,
+  "avoidance_messages_total": 504,
+  "avoidance_participants_sampled": 4
+}

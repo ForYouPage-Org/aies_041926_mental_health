@@ -1,0 +1,21 @@
+{
+  "N": 157,
+  "N_gender_observed": 119,
+  "N_gender_imputed": 38,
+  "ECR_Anxiety_M": 4.063694267515924,
+  "ECR_Anxiety_SD": 1.1271600080317985,
+  "ECR_Avoidance_M": 3.2165605095541405,
+  "ECR_Avoidance_SD": 0.9804835149717525,
+  "Age_M": 21.662420382165607,
+  "Age_SD": 2.2319192043993255,
+  "Gender_pct_female": 49.57983193277312,
+  "Frequency_M": 3.554140127388535,
+  "Frequency_SD": 0.4986508009259449,
+  "n_sig_anxiety_zeroorder": 7,
+  "n_sig_avoidance_zeroorder": 2,
+  "n_sig_anxiety_controlled": 9,
+  "n_sig_avoidance_controlled": 3,
+  "n_sig_delta_r2": 8,
+  "max_delta_r2": 0.1812068106146902,
+  "timestamp": "2026-01-08T19:09:39.358659"
+}

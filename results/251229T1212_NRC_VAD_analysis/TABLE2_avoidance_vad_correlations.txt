@@ -1,0 +1,21 @@
+================================================================================
+TABLE 2: Attachment Avoidance × NRC VAD Dimensions
+================================================================================
+N = 105 participants
+NRC VAD Lexicon v2.1 (Mohammad, 2025)
+FDR correction applied (Benjamini-Hochberg)
+--------------------------------------------------------------------------------
+
+VAD Dimension                    r          p    Sig      p_FDR    FDR       R²
+--------------------------------------------------------------------------------
+Mean Valence                 0.186     0.0579     ns     0.3471     ns    0.034
+Mean Arousal                -0.036     0.7188     ns     0.8625     ns    0.001
+Mean Dominance               0.083     0.4013     ns     0.8026     ns    0.007
+Valence Variability         -0.084     0.3917     ns     0.8026     ns    0.007
+Arousal Variability         -0.054     0.5857     ns     0.8625     ns    0.003
+Dominance Variability        0.005     0.9597     ns     0.9597     ns    0.000
+--------------------------------------------------------------------------------
+
+Note: Valence (-1=negative, +1=positive), Arousal (-1=calm, +1=excited),
+      Dominance (-1=weak/submissive, +1=powerful/in-control)
+      *** p<.001, ** p<.01, * p<.05

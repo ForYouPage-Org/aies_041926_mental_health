@@ -1,0 +1,62 @@
+====================================================================================================
+TABLE 1: Attachment Anxiety × LIWC-22 Dimensions
+====================================================================================================
+N = 105 participants
+LIWC-22 (Boyd et al., 2022)
+FDR correction applied (Benjamini-Hochberg)
+Significant (uncorrected p < .05): 15/46
+Significant (FDR q < .05): 7/46
+----------------------------------------------------------------------------------------------------
+
+Category        LIWC Variable                    r          p   Sig      p_FDR   FDR       R²
+----------------------------------------------------------------------------------------------------
+Affect          Total Affect                 0.310     0.0013    **     0.0348     *    0.096
+Drives          Affiliation                  0.301     0.0018    **     0.0348     *    0.091
+Affect          Negative Emotion             0.292     0.0025    **     0.0348     *    0.085
+Pronouns        I-words (self-focus)         0.281     0.0036    **     0.0348     *    0.079
+Perception      Future Focus                 0.280     0.0038    **     0.0348     *    0.078
+Affect          Positive Tone                0.275     0.0045    **     0.0348     *    0.076
+Social          Total Social                 0.265     0.0063    **     0.0412     *    0.070
+Summary         Analytical Thinking         -0.236     0.0152     *     0.0871          0.056
+Pronouns        We-words                     0.227     0.0196     *     0.1003          0.052
+Pronouns        You-words                    0.222     0.0227     *     0.1043          0.049
+Pronouns        They                         0.217     0.0262     *     0.1094          0.047
+Social          Prosocial                    0.205     0.0363     *     0.1308          0.042
+Drives          Total Drives                 0.203     0.0375     *     0.1308          0.041
+Needs           Need                         0.201     0.0398     *     0.1308          0.040
+Social          Polite                       0.198     0.0430     *     0.1318          0.039
+Affect          Anxiety                      0.186     0.0578           0.1662          0.035
+Cognition       Discrepancy                  0.179     0.0671           0.1815          0.032
+Affect          Negative Tone                0.172     0.0790           0.2020          0.030
+Needs           Want                         0.168     0.0863           0.2087          0.028
+Social          Social Behavior              0.165     0.0926           0.2087          0.027
+Summary         Social Status/Confidence     0.164     0.0953           0.2087          0.027
+Perception      Present Focus                0.156     0.1112           0.2141          0.024
+Social          Conflict                     0.156     0.1125           0.2141          0.024
+Perception      Feeling                      0.155     0.1140           0.2141          0.024
+Pronouns        She/He                       0.154     0.1163           0.2141          0.024
+Perception      Past Focus                   0.148     0.1318           0.2332          0.022
+Cognition       Certainty                    0.136     0.1653           0.2817          0.019
+Affect          Sadness                      0.132     0.1786           0.2934          0.017
+Summary         Emotional Tone               0.129     0.1932           0.2990          0.017
+Affect          Anger                        0.127     0.1950           0.2990          0.016
+Affect          Positive Emotion             0.119     0.2253           0.3343          0.014
+Drives          Achievement                  0.116     0.2378           0.3419          0.014
+Needs           Reward                       0.102     0.3016           0.4204          0.010
+Cognition       Insight                      0.088     0.3737           0.5056          0.008
+Cognition       Total Cognition              0.083     0.4014           0.5275          0.007
+Social          Friend                       0.078     0.4280           0.5469          0.006
+Cognition       Causation                    0.075     0.4473           0.5477          0.006
+Needs           Curiosity                   -0.074     0.4524           0.5477          0.005
+Needs           Lack                        -0.069     0.4827           0.5694          0.005
+Cognition       Cognitive Processes          0.060     0.5415           0.6228          0.004
+Cognition       Tentative                   -0.056     0.5689           0.6329          0.003
+Perception      Total Perception            -0.055     0.5778           0.6329          0.003
+Social          Family                       0.051     0.6055           0.6477          0.003
+Drives          Power                        0.042     0.6724           0.7029          0.002
+Needs           Risk                         0.040     0.6880           0.7033          0.002
+Summary         Authenticity                -0.030     0.7580           0.7580          0.001
+----------------------------------------------------------------------------------------------------
+
+Note: *** p<.001, ** p<.01, * p<.05
+      Sorted by absolute correlation strength

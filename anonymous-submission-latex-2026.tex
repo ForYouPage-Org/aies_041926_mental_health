@@ -1,0 +1,85 @@
+\documentclass[letterpaper]{article}
+\usepackage[submission]{aaai2026}
+\usepackage{times}
+\usepackage{helvet}
+\usepackage{courier}
+\usepackage[hyphens]{url}
+\usepackage{graphicx}
+\urlstyle{rm}
+\def\UrlFont{\rm}
+\usepackage{natbib}
+\usepackage{caption}
+\usepackage{booktabs}
+\frenchspacing
+\setlength{\pdfpagewidth}{8.5in}
+\setlength{\pdfpageheight}{11in}
+\pdfinfo{
+/TemplateVersion (2026.1)
+}
+
+\setcounter{secnumdepth}{0}
+
+\title{Does Mental Health Shape ChatGPT Usage? Anxiety, Depression, and the Psycholinguistic Footprint of General-Purpose Conversational Agents}
+\author{
+    Anonymous Author(s)
+}
+\affiliations{
+    Anonymous Institution
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Prior work has shown that users' trait-level attachment styles predict how they relate to ChatGPT: anxiously attached users report higher emotional engagement, higher trust, and adopt more behavioral suggestions, while avoidantly attached users report lower trust and fewer self-efficacy gains \citep{anon2026attachment}. Attachment anxiety also leaves a detectable linguistic footprint in users' prompts, even in transactional exchanges. A natural follow-up question is whether this pattern generalizes to \emph{state-level} psychological vulnerability --- specifically, to symptoms of anxiety and depression that fluctuate within individuals and are routinely screened in primary care. We report a mixed-methods analysis of $N=168$ young-adult ChatGPT users and $N_{\mathrm{msg}}=19{,}930$ of their messages, using the same participant sample and instruments but swapping the attachment predictor (ECR-SF) for mental-health predictors (PHQ-4 anxiety, PHQ-4 depression; PROMIS anxiety as robustness). We ask: do anxiety and depression predict users' perceived ChatGPT experiences (emotional engagement, trust, self-efficacy, behavioral change, dependency concern), and do they predict linguistic patterns in users' messages, beyond demographics and usage frequency? Preliminary results indicate that PHQ-4 depression is more strongly associated than PHQ-4 anxiety with emotional engagement with ChatGPT and with psycholinguistic markers including future-focused language, we-words, affiliation, and negative-emotion words --- a pattern only partially overlapping with the attachment results. We discuss implications for privacy-by-design in general-purpose conversational agents, where sensitive mental-health signals may be implicitly disclosed through conversational style rather than through explicit content.
+\end{abstract}
+
+\section{Introduction}
+
+General-purpose conversational agents (GPCAs) are now routine in young adults' information environment: ChatGPT has over 700 million weekly active users, and nearly six in ten U.S.\ adults under 30 report regular use \citep{openai2025users,pew2024chatgpt}. Unlike traditional search engines, ChatGPT's anthropomorphic, multi-turn interface invites conversation rather than querying, and a growing body of work shows that users bring emotional and relational patterns to these interactions even in ostensibly transactional contexts \citep{brandtzaeg2017chatbots,chatterji2025chatgptuse}. Recent evidence links adult \emph{attachment style} to how users experience ChatGPT: attachment anxiety predicts heightened emotional engagement, trust, and uptake of AI-suggested behaviors, while attachment avoidance predicts the inverse pattern for trust and self-efficacy, with detectable linguistic correlates in users' prompts \citep{anon2026attachment}.
+
+Attachment style is, however, a \emph{trait} construct --- stable across years and rooted in early caregiving history \citep{fraley2019attachment,bartholomew1991styles}. If the concern motivating the attachment literature is that vulnerable users may disproportionately seek out, trust, and confide in GPCAs, then an equally urgent empirical question is whether \emph{state-level} mental health symptoms --- the anxiety and depression that fluctuate with life circumstances and that primary care routinely screens for with instruments like the PHQ-4 \citep{kroenke2009phq4} --- show the same pattern. Anxiety and depression are substantially more prevalent than clinically elevated attachment insecurity: roughly 20--30\% of U.S.\ young adults meet threshold symptom criteria at any given time \citep{nimh2023yamh}, and this prevalence rose sharply during and after the COVID-19 period \citep{czeisler2020mh}. Any vulnerability mechanism that activates through conversational AI therefore has substantially larger population exposure when it operates through depression or anxiety symptoms than through trait attachment alone.
+
+Prior work has examined mental-health outcomes of AI chatbot use --- reduced anxiety from sustained companion-CA use \citep{maples2024loneliness}, reduced depression symptoms \citep{dosovitsky2021depression}, but also increased loneliness among heavy users \citep{phang2025affective}, emotional dependence \citep{laestadius2024replika}, and elevated risk in safety-critical contexts for distressed adolescents \citep{clark2025limits}. Much of this work treats mental health as the \emph{dependent} variable: does AI use cause changes in symptoms? The question we ask is the converse, and complementary: do current anxiety and depression symptoms shape \emph{how} users experience and engage with a GPCA that is not marketed as a mental-health tool? If the answer is yes --- and particularly if symptoms leave a linguistic trace in users' prompts in ways users would not notice themselves disclosing --- this has direct implications for privacy, design, and regulation of the large commercial systems that now mediate a substantial share of adults' information-seeking \citep{euact2026,gdpr}.
+
+In this paper we report a mixed-methods analysis of $N=168$ young-adult ChatGPT users (ages 18--25) and $N_{\mathrm{msg}}=19{,}930$ of their real conversational messages, using the same sample, instruments, and analytic design as \citet{anon2026attachment} but swapping the trait-attachment predictor for mental-health predictors. Specifically, we measure anxiety with the PHQ-4 anxiety subscale \citep{kroenke2009phq4} and depression with the PHQ-4 depression subscale, with the 7-item PROMIS anxiety short form as a robustness check. We predict five ChatGPT-experience composites (emotional engagement, trust, self-efficacy, behavioral change, dependency concern) from anxiety and depression in hierarchical regressions that control for age, gender, and ChatGPT usage frequency. In parallel, we correlate anxiety and depression with 46 LIWC-22 psycholinguistic markers \citep{boyd2022liwc} aggregated per participant across their ChatGPT messages, applying the same $\Delta R^2$ and Benjamini--Hochberg FDR correction used in the attachment analysis \citep{benjamini1995fdr}.
+
+We ask three research questions:
+
+\begin{itemize}
+\item \textbf{RQ1.} Do anxiety and depression predict users' perceived experiences with ChatGPT (emotional engagement, trust, self-efficacy, behavioral change, dependency concern), beyond demographics and usage frequency?
+\item \textbf{RQ2.} Do anxiety and depression leave detectable psycholinguistic traces in users' ChatGPT prompts, beyond demographic and volume controls?
+\item \textbf{RQ3.} Does the mental-health pattern converge with, extend, or diverge from the attachment pattern reported in \citet{anon2026attachment} on the same sample?
+\end{itemize}
+
+Preliminary results point to three contributions. First, depression emerges as a stronger and more broadly distributed predictor of users' ChatGPT experiences and linguistic patterns than anxiety, complicating the anxiety-centric framing of prior attachment work. Second, PHQ-4 depression is associated with increased affiliative, socially oriented, and future-focused language in users' prompts --- a linguistic signature that partially overlaps with but is not reducible to the anxiety signature identified in the attachment literature. Third, the convergent structure of attachment-anxiety and state-depression effects --- both on perceived experience and on linguistic markers --- suggests that the privacy risk raised in prior work (users implicitly disclosing psychological vulnerability through how they talk, not only what they say) extends to common clinical populations, not only to those with insecure trait attachment.
+
+We frame these findings as hypothesis-generating. Our sample is the same Prolific-recruited young-adult cohort used in the attachment study, and is not population-representative; mental-health prevalence is higher in this age band than in the general adult population. We report effect sizes, 95\% confidence intervals, and FDR-corrected $p$-values, and we clearly flag which associations survive correction. Where we make design or policy claims, we align with prior calls to expand privacy frameworks beyond explicit PII to cover \emph{implicit psychological signatures} conveyed through conversational style \citep{anon2026attachment}.
+
+The remainder of the paper is organized as follows. We review prior work on mental health, conversational AI, and psycholinguistic disclosure. We then describe the mixed-methods study: a two-part survey ($N=168$) paired with ChatGPT conversation histories. We report hierarchical regression results for RQ1 and LIWC correlations for RQ2, and a side-by-side comparison with the attachment results for RQ3. We close with implications for platform design, clinical screening integration, and privacy regulation in the GPCA era.
+
+\section{Related Work}
+
+\subsection{Mental Health and Conversational AI}
+(Placeholder: synthesize evidence on PHQ-4 / PROMIS validity, prevalence in young adults, and prior work on AI chatbot effects on mental health outcomes. Contrast with our reverse-direction question: mental health $\to$ AI experience.)
+
+\subsection{Attachment, Relational AI, and the Trait--State Distinction}
+(Placeholder: position relative to \citealp{anon2026attachment}. Attachment as trait; PHQ-4/PROMIS as state. Why both matter, and why state-level may have broader population exposure.)
+
+\subsection{Psycholinguistic Disclosure and Privacy}
+(Placeholder: LIWC, NRC-VAD, and the ``implicit disclosure'' framing --- how conversational style can leak sensitive psychological information even in transactional messages.)
+
+\section{Method}
+(Placeholder: mirror the FAccT paper methods section, but replace ECR-SF with PHQ-4 and PROMIS anxiety. Keep the same $N=168$ sample, same AI-experience items, same $N_{\mathrm{msg}}=19{,}930$ corpus, same LIWC-22 pipeline, same BH-FDR correction.)
+
+\section{Results}
+(Placeholder: RQ1 hierarchical regressions, RQ2 LIWC correlations, RQ3 side-by-side comparison with attachment.)
+
+\section{Discussion}
+(Placeholder: design, clinical integration, and privacy implications.)
+
+\bibliography{aaai2026}
+\bibliographystyle{aaai2026}
+
+\end{document}

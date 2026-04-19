@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-03-25T10:36:47.519272",
+  "sampling_strategy": "exclusive_attachment_groups_participant_stratified",
+  "random_seed": 42,
+  "messages_per_participant": 10,
+  "anxiety_threshold": 4.666666666666667,
+  "avoidance_threshold": 3.8333333333333335,
+  "threshold_selection": {
+    "method": "highest_threshold_meeting_min_avoidance_participants",
+    "requested_min_avoidance_participants": 10,
+    "default_avoidance_threshold": 4.0,
+    "selected_avoidance_threshold": 3.8333333333333335,
+    "high_avoidance_total": 64,
+    "avoidance_only_total": 43,
+    "avoidance_only_with_messages": 21,
+    "overlap_total": 21
+  },
+  "eligible_participant_overlap": {
+    "high_anxiety": 49,
+    "high_avoidance": 64,
+    "both_high": 21,
+    "union_high": 92,
+    "both_pct_of_high_anxiety": 42.86,
+    "both_pct_of_high_avoidance": 32.81,
+    "both_pct_of_union": 22.83
+  },
+  "exclusive_groups": {
+    "anxiety_only_participants": 28,
+    "avoidance_only_participants": 43
+  },
+  "high_anxiety_only_sample": {
+    "participants_total": 28,
+    "participants_with_messages": 15,
+    "participants_sampled": 15,
+    "participants_below_target": 1,
+    "messages_available_total": 9052,
+    "messages_sampled_total": 142,
+    "conversations_available_total": 1786,
+    "conversations_sampled_total": 142
+  },
+  "high_avoidance_only_sample": {
+    "participants_total": 43,
+    "participants_with_messages": 21,
+    "participants_sampled": 21,
+    "participants_below_target": 0,
+    "messages_available_total": 29222,
+    "messages_sampled_total": 210,
+    "conversations_available_total": 3500,
+    "conversations_sampled_total": 204
+  },
+  "sample_overlap_check": {
+    "participants_in_both_files": 0,
+    "identical_conversation_ids_in_both_files": 0
+  },
+  "output_files": {
+    "high_anxiety_only_messages": "high_anxiety_only_messages_stratified.csv",
+    "high_avoidance_only_messages": "high_avoidance_only_messages_stratified.csv",
+    "combined": "all_sampled_messages_no_cooccurrence_stratified.csv",
+    "participant_summary": "participant_summary_no_cooccurrence_stratified.csv"
+  }
+}

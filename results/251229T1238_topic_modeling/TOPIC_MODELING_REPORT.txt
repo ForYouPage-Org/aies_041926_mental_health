@@ -1,0 +1,112 @@
+================================================================================
+TOPIC MODELING BY ATTACHMENT STYLE
+================================================================================
+Date: 2025-12-29 12:40
+Method: MPNet embeddings + HDBSCAN clustering + Ollama (llama3.2:latest)
+--------------------------------------------------------------------------------
+
+
+========================================
+HIGH ANXIETY
+========================================
+Total messages: 5,000
+Clusters found: 3
+Noise (unclustered): 84.6%
+
+TOP TOPICS:
+----------------------------------------
+
+1. Code Assistance and Feedback
+   Messages: 723 (14.5%)
+   Keywords: make, example, write, words, que, code, correct, answer
+   Example: "Use very simple words tro rephrase this paragraphgs..."
+
+2. Chondrocyte Signaling Regulation
+   Messages: 25 (0.5%)
+   Keywords: sox9, chondrocytes, shp2, acan, does, potential, acan chondrocytes, il
+   Example: "other way of saying this: SHP2 ablation in chondrocytes increases SOX9 phosphorylation, stability, a..."
+
+3. UK Human Rights Law
+   Messages: 23 (0.5%)
+   Keywords: uk, scotland, devolution, human, scottish, did, uk constitution, constitution
+   Example: "How does parliamentary sovereignty impact positive or negative human rights in the uk..."
+
+========================================
+LOW ANXIETY
+========================================
+Total messages: 5,000
+Clusters found: 4
+Noise (unclustered): 88.0%
+
+TOP TOPICS:
+----------------------------------------
+
+1. Spanish Language Assistance
+   Messages: 383 (7.7%)
+   Keywords: que, la, el, en, para, es, di, puedes
+   Example: "desarrollalo a manera de ensayo..."
+
+2. Text Editing Assistance
+   Messages: 162 (3.2%)
+   Keywords: sentences, make, paragraph, sentence, word, words, shorter, write
+   Example: "make it one paragraph..."
+
+3. Medical Explanation Request
+   Messages: 32 (0.6%)
+   Keywords: mitä, ja, kun, miksi, se, hyvin, mikä, kerro
+   Example: "Mitä kysyisit ensihoitajalta joka antoi raportin..."
+
+4. Concentration Measurement Conversion
+   Messages: 24 (0.5%)
+   Keywords: wie, ml, sind, µg, mg, wie viel, viel, mg ml
+   Example: "wie viel µg sind  2 mg?..."
+
+========================================
+HIGH AVOIDANCE
+========================================
+Total messages: 5,000
+Clusters found: 2
+Noise (unclustered): 79.6%
+
+TOP TOPICS:
+----------------------------------------
+
+1. Simple Language Assistance
+   Messages: 990 (19.8%)
+   Keywords: make, say, explain, words, write, like, que, use
+   Example: "Use very simple words tro rephrase this paragraphgs..."
+
+2. Emotional Support and Connection
+   Messages: 30 (0.6%)
+   Keywords: brother, im, nods, just, urges, want, feel, dont
+   Example: "....master i dont want you to stop...im yours...im y........"
+
+========================================
+LOW AVOIDANCE
+========================================
+Total messages: 5,000
+Clusters found: 3
+Noise (unclustered): 89.9%
+
+TOP TOPICS:
+----------------------------------------
+
+1. Technical Language Assistance
+   Messages: 340 (6.8%)
+   Keywords: que, la, en, es, el, puedes, se, para
+   Example: "me puedes dar opciones de nombre de proyecto..."
+
+2. Code Explanation Assistance
+   Messages: 140 (2.8%)
+   Keywords: make, sentences, code, answer, shorter, explain, paragraph, summarize
+   Example: "make it brief and simplify it..."
+
+3. Travel and Language Assistance
+   Messages: 25 (0.5%)
+   Keywords: translate, chinese, 我没想到 place, 我没想到, 多啊, place adjective, place, adjective 多啊
+   Example: "個人聯絡電話嗰個係我朋友個媽咪，佢長期喺日本如果超過2號先搵到部電話可以打俾佢，但係佢只能講英文 上面有寫她的名字
+轉日文..."
+
+================================================================================
+END OF REPORT
+================================================================================
