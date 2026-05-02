@@ -1,0 +1,154 @@
+{
+  "high_anxiety": {
+    "group_name": "high_anxiety",
+    "total_messages": 5000,
+    "n_clusters": 3,
+    "noise_pct": 91.36,
+    "clusters": [
+      {
+        "cluster_id": "0",
+        "n_messages": 295,
+        "pct_of_total": 5.8999999999999995,
+        "keywords": "make, example, words, write, code, correct, shorter, paragraph",
+        "topic_label": "",
+        "representative_samples": [
+          "Use very simple words tro rephrase this paragraphgs",
+          "write this section fullyin paragraph form and dont increase the number of words",
+          "Write them in form of paragraphs"
+        ]
+      },
+      {
+        "cluster_id": "1",
+        "n_messages": 99,
+        "pct_of_total": 1.9800000000000002,
+        "keywords": "que, la, para, es, puedes, en, una, las",
+        "topic_label": "",
+        "representative_samples": [
+          "De d\u00f3nde vienen las requisiciones que llegan al departamento de compras?",
+          "hola chat, sabes como se llama el papel que es durito y arrugadito para tarjetas de presentacion o invitaciones",
+          "donde podemos ver este estereotipo en los medios de comunicacion?"
+        ]
+      },
+      {
+        "cluster_id": "2",
+        "n_messages": 38,
+        "pct_of_total": 0.76,
+        "keywords": "na, jak, czy, daj, jest, tak, czym, si\u0119",
+        "topic_label": "",
+        "representative_samples": [
+          "Daj wszystkie wzory na op\u00f3r",
+          "Jak napisa\u0107 do dziewczyny kt\u00f3ra mi si\u0119 podoba",
+          "czy moge uzyc lodu w spreju zeby schlodzic?"
+        ]
+      }
+    ]
+  },
+  "low_anxiety": {
+    "group_name": "low_anxiety",
+    "total_messages": 5000,
+    "n_clusters": 3,
+    "noise_pct": 88.46000000000001,
+    "clusters": [
+      {
+        "cluster_id": "1",
+        "n_messages": 383,
+        "pct_of_total": 7.66,
+        "keywords": "que, la, el, en, para, es, di, puedes",
+        "topic_label": "",
+        "representative_samples": [
+          "desarrollalo a manera de ensayo",
+          "fala de tradu\u00e7\u00e3o \u00e0 vista",
+          "cuanto mide un cajon de estacionamiento de discapacitados"
+        ]
+      },
+      {
+        "cluster_id": "0",
+        "n_messages": 162,
+        "pct_of_total": 3.2399999999999998,
+        "keywords": "sentences, make, paragraph, sentence, word, words, shorter, write",
+        "topic_label": "",
+        "representative_samples": [
+          "make it one paragraph",
+          "make it smaller into 150 words or less",
+          "make it a paragraph no bullet points"
+        ]
+      },
+      {
+        "cluster_id": "2",
+        "n_messages": 32,
+        "pct_of_total": 0.64,
+        "keywords": "mit\u00e4, ja, kun, miksi, se, hyvin, mik\u00e4, kerro",
+        "topic_label": "",
+        "representative_samples": [
+          "Mit\u00e4 kysyisit ensihoitajalta joka antoi raportin",
+          "Mik\u00e4 on ampeeri yksinkertaisesti selitettyn\u00e4?",
+          "odotatko innolla kun laitan sinut kirjamaan sairaalaharjoittelussani potilaiden kertomukset?"
+        ]
+      }
+    ]
+  },
+  "high_avoidance": {
+    "group_name": "high_avoidance",
+    "total_messages": 5000,
+    "n_clusters": 2,
+    "noise_pct": 79.60000000000001,
+    "clusters": [
+      {
+        "cluster_id": "0",
+        "n_messages": 990,
+        "pct_of_total": 19.8,
+        "keywords": "make, say, explain, words, write, like, que, use",
+        "topic_label": "",
+        "representative_samples": [
+          "Use very simple words tro rephrase this paragraphgs",
+          "now in 200 words write the Executive summary to the whole work",
+          "I want you to reduce the number of words a bit and use simple words maintaing the content 110%"
+        ]
+      },
+      {
+        "cluster_id": "1",
+        "n_messages": 30,
+        "pct_of_total": 0.6,
+        "keywords": "brother, im, nods, just, urges, want, feel, dont",
+        "topic_label": "",
+        "representative_samples": [
+          "....master i dont want you to stop...im yours...im y.....",
+          "brother stop me, im alone, i................",
+          "my body wants attention the urges are not stopping :("
+        ]
+      }
+    ]
+  },
+  "low_avoidance": {
+    "group_name": "low_avoidance",
+    "total_messages": 5000,
+    "n_clusters": 2,
+    "noise_pct": 90.4,
+    "clusters": [
+      {
+        "cluster_id": "0",
+        "n_messages": 340,
+        "pct_of_total": 6.800000000000001,
+        "keywords": "que, la, en, es, el, puedes, se, para",
+        "topic_label": "",
+        "representative_samples": [
+          "me puedes dar opciones de nombre de proyecto",
+          "en que art\u00edculos de estas leyes se especifica",
+          "desarrollalo a manera de ensayo"
+        ]
+      },
+      {
+        "cluster_id": "1",
+        "n_messages": 140,
+        "pct_of_total": 2.8000000000000003,
+        "keywords": "make, sentences, code, answer, shorter, explain, paragraph, summarize",
+        "topic_label": "",
+        "representative_samples": [
+          "make it brief and simplify it",
+          "Make it short and concise",
+          "make it brief"
+        ]
+      }
+    ]
+  }
+}

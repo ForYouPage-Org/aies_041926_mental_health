@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-01-11T12:36:53.942024",
+  "anxiety_threshold": 4.666666666666667,
+  "avoidance_threshold": 4.0,
+  "n_high_anxiety_participants": 49,
+  "n_high_avoidance_participants": 31,
+  "anxiety_conversations_sampled": 100,
+  "anxiety_messages_total": 2759,
+  "avoidance_conversations_sampled": 100,
+  "avoidance_messages_total": 1825
+}

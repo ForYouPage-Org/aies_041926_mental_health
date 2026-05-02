@@ -1,0 +1,63 @@
+{
+  "timestamp": "2026-03-25T11:39:14.584134",
+  "sampling_strategy": "balanced_subset_from_no_cooccurrence_stratified_sample",
+  "source_summary_file": "sampling_summary_no_cooccurrence_stratified.json",
+  "source_thresholds": {
+    "anxiety_threshold": 4.666666666666667,
+    "avoidance_threshold": 3.8333333333333335
+  },
+  "random_seed": 42,
+  "participants_per_group": 10,
+  "messages_per_participant": 10,
+  "messages_total": 200,
+  "group_message_counts": {
+    "High_Anxiety_Only": 100,
+    "High_Avoidance_Only": 100
+  },
+  "group_participant_counts": {
+    "High_Anxiety_Only": 10,
+    "High_Avoidance_Only": 10
+  },
+  "high_anxiety_only_subset": {
+    "eligible_participants_with_10_messages": 14,
+    "participants_selected": 10,
+    "messages_sampled_total": 100,
+    "conversations_sampled_total": 100,
+    "selected_participant_ids": [
+      "5d5ec6176da6c60018f089f3",
+      "5d61c09ae768ff0001a87782",
+      "5f3fc4885ebd8004d1180206",
+      "5f63c2633e1d92113b2cbcbc",
+      "6111122d4d0fad272b805eba",
+      "6643bed0ed868a9901a9ddec",
+      "67354f3564d572b11add61e8",
+      "673dacc49b7076ea013a0ba3",
+      "6786e77f621a9c066c534e78",
+      "67acc5363fc271ad9d1fbb5b"
+    ]
+  },
+  "high_avoidance_only_subset": {
+    "eligible_participants_with_10_messages": 21,
+    "participants_selected": 10,
+    "messages_sampled_total": 100,
+    "conversations_sampled_total": 100,
+    "selected_participant_ids": [
+      "5efcc0d6ae9c480b8534642f",
+      "60f21a783869b285765db9eb",
+      "60ff2da61e66740c070050cb",
+      "613a70774e42055f91081fc5",
+      "658228a5464f65410031380c",
+      "6598942c3d07928cc188ffdb",
+      "667d56d859fbccb8b4a14de5",
+      "670453b0d93209a1e156916d",
+      "673b7d23f800519d97cfca8c",
+      "67c06873bf4e0f7bcf4f6111"
+    ]
+  },
+  "output_files": {
+    "high_anxiety_only_messages": "high_anxiety_only_messages_stratified_balanced_100.csv",
+    "high_avoidance_only_messages": "high_avoidance_only_messages_stratified_balanced_100.csv",
+    "combined": "all_sampled_messages_no_cooccurrence_stratified_balanced_200.csv",
+    "participant_summary": "participant_summary_no_cooccurrence_stratified_balanced_200.csv"
+  }
+}

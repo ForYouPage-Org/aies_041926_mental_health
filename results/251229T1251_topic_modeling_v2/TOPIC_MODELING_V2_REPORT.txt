@@ -1,0 +1,93 @@
+================================================================================
+TOPIC MODELING v2 - ACADEMIC vs PERSONAL ANALYSIS
+================================================================================
+Date: 2025-12-29 12:52
+Method: Keyword classification + MPNet + HDBSCAN + Ollama
+--------------------------------------------------------------------------------
+
+OVERALL MESSAGE CLASSIFICATION
+========================================
+Total messages analyzed: 67,100
+
+  Academic/Homework:  11,340 ( 16.9%)
+  Personal/Emotional:  3,273 (  4.9%)
+  Ambiguous/Other:    52,487 ( 78.2%)
+
+
+CLASSIFICATION BY ATTACHMENT GROUP
+========================================
+
+Group                  Academic   Personal  Ambiguous
+----------------------------------------------------
+high_anxiety              17.6%       5.8%      76.7%
+low_anxiety               15.8%       3.4%      80.8%
+high_avoidance            16.4%       6.2%      77.5%
+low_avoidance             17.5%       3.5%      79.0%
+
+
+================================================================================
+TOPICS IN PERSONAL/EMOTIONAL MESSAGES
+================================================================================
+
+────────────────────────────────────────
+HIGH ANXIETY
+────────────────────────────────────────
+Messages: 2,417 | Clusters: 2 | Noise: 23.3%
+
+1. Emotional Support Conversation
+   Count: 1836 (76.0%)
+   Keywords: feel, brother, help, like, im, love, just, want
+   Example: "i wanted to relax talking with you but now i just feel upset with how you apprao..."
+
+2. Emerging Markets ETFs
+   Count: 17 (0.7%)
+   Keywords: msci, emerging, markets, emerging markets, etf, msci world, world, ftse
+   Example: "Okay can I buy MSCI World ex US and FTSE Emerging markets Whether will it includ..."
+
+
+────────────────────────────────────────
+LOW ANXIETY
+────────────────────────────────────────
+Messages: 856 | Clusters: 0 | Noise: 100.0%
+
+
+────────────────────────────────────────
+HIGH AVOIDANCE
+────────────────────────────────────────
+Messages: 2,109 | Clusters: 2 | Noise: 22.7%
+
+1. Emotional Support Needed
+   Count: 1612 (76.4%)
+   Keywords: feel, brother, im, like, help, just, want, love
+   Example: "i wanted to relax talking with you but now i just feel upset with how you apprao..."
+
+2. Emerging Markets Investing
+   Count: 18 (0.9%)
+   Keywords: msci, emerging, markets, emerging markets, etf, world, msci world, ftse
+   Example: "Okay can I buy MSCI World ex US and FTSE Emerging markets Whether will it includ..."
+
+
+────────────────────────────────────────
+LOW AVOIDANCE
+────────────────────────────────────────
+Messages: 1,164 | Clusters: 3 | Noise: 82.7%
+
+1. Story Writing Assistance Needed
+   Count: 157 (13.5%)
+   Keywords: story, help, love, character, situation, write, problem, question
+   Example: "can u start the story in other sentences..."
+
+2. Emotional Expression Feedback
+   Count: 26 (2.2%)
+   Keywords: feel, pain, bit, hurt, sad, like, feel bit, feeling
+   Example: "yh i do feel a bit nauseous..."
+
+3. Therapy and Stress Management
+   Count: 18 (1.5%)
+   Keywords: therapy, stress, psychodynamic, area, psychodynamic therapy, music therapy, music, therapy psychodynamic
+   Example: "Is stress clinical psychology though..."
+
+
+================================================================================
+END OF REPORT
+================================================================================

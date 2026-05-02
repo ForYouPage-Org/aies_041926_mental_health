@@ -1,0 +1,42 @@
+================================================================================
+ECR ATTACHMENT × AI ATTITUDES ANALYSIS - CORRECTED
+================================================================================
+Output directory: results/251020T1120_ecr_ai_attitudes_CORRECTED
+CRITICAL FIX: Using correct 5-point scale for AI attitudes
+
+STEP 1: Loading data...
+  ECR data: 197 participants
+  Survey data: 501 participants
+  Mapping AI attitudes to 5-point scale (CORRECTED)
+  Merged data: 212 participants
+
+STEP 2: Descriptive statistics...
+STEP 3: Correlation analysis...
+STEP 4: Multiple regression analyses...
+STEP 5: Interaction/moderation analyses...
+
+STEP 6: Creating publication-quality visualizations...
+  ✓ Figure 1: Correlation forest plot (Nature style)
+  ✓ Figure 2: Top associations with marginals
+  ✓ Figure 3: Variance explained with stats
+
+STEP 7: Creating summary report...
+  ✓ Summary report saved
+
+================================================================================
+CORRECTED ANALYSIS COMPLETE
+================================================================================
+
+Output: results/251020T1120_ecr_ai_attitudes_CORRECTED/
+
+CRITICAL FIX APPLIED:
+  ✓ AI attitudes correctly scaled (1-5, not 1-7)
+  ✓ 9 significant anxiety correlations
+  ✓ 2 significant avoidance correlations
+
+Publication-ready figures:
+  ✓ FIG1: Correlation forest plot (Nature style)
+  ✓ FIG2: Top associations with marginals
+  ✓ FIG3: Variance explained with detailed stats
+
+================================================================================

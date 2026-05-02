@@ -1,0 +1,101 @@
+================================================================================
+TOPIC MODELING BY ATTACHMENT STYLE
+================================================================================
+Date: 2025-12-29 12:37
+Method: MPNet embeddings + HDBSCAN clustering + Ollama (qwen3:8b)
+--------------------------------------------------------------------------------
+
+
+========================================
+HIGH ANXIETY
+========================================
+Total messages: 5,000
+Clusters found: 3
+Noise (unclustered): 91.4%
+
+TOP TOPICS:
+----------------------------------------
+
+1. 
+   Messages: 295 (5.9%)
+   Keywords: make, example, words, write, code, correct, shorter, paragraph
+   Example: "Use very simple words tro rephrase this paragraphgs..."
+
+2. 
+   Messages: 99 (2.0%)
+   Keywords: que, la, para, es, puedes, en, una, las
+   Example: "De dónde vienen las requisiciones que llegan al departamento de compras?..."
+
+3. 
+   Messages: 38 (0.8%)
+   Keywords: na, jak, czy, daj, jest, tak, czym, się
+   Example: "Daj wszystkie wzory na opór..."
+
+========================================
+LOW ANXIETY
+========================================
+Total messages: 5,000
+Clusters found: 3
+Noise (unclustered): 88.5%
+
+TOP TOPICS:
+----------------------------------------
+
+1. 
+   Messages: 383 (7.7%)
+   Keywords: que, la, el, en, para, es, di, puedes
+   Example: "desarrollalo a manera de ensayo..."
+
+2. 
+   Messages: 162 (3.2%)
+   Keywords: sentences, make, paragraph, sentence, word, words, shorter, write
+   Example: "make it one paragraph..."
+
+3. 
+   Messages: 32 (0.6%)
+   Keywords: mitä, ja, kun, miksi, se, hyvin, mikä, kerro
+   Example: "Mitä kysyisit ensihoitajalta joka antoi raportin..."
+
+========================================
+HIGH AVOIDANCE
+========================================
+Total messages: 5,000
+Clusters found: 2
+Noise (unclustered): 79.6%
+
+TOP TOPICS:
+----------------------------------------
+
+1. 
+   Messages: 990 (19.8%)
+   Keywords: make, say, explain, words, write, like, que, use
+   Example: "Use very simple words tro rephrase this paragraphgs..."
+
+2. 
+   Messages: 30 (0.6%)
+   Keywords: brother, im, nods, just, urges, want, feel, dont
+   Example: "....master i dont want you to stop...im yours...im y........"
+
+========================================
+LOW AVOIDANCE
+========================================
+Total messages: 5,000
+Clusters found: 2
+Noise (unclustered): 90.4%
+
+TOP TOPICS:
+----------------------------------------
+
+1. 
+   Messages: 340 (6.8%)
+   Keywords: que, la, en, es, el, puedes, se, para
+   Example: "me puedes dar opciones de nombre de proyecto..."
+
+2. 
+   Messages: 140 (2.8%)
+   Keywords: make, sentences, code, answer, shorter, explain, paragraph, summarize
+   Example: "make it brief and simplify it..."
+
+================================================================================
+END OF REPORT
+================================================================================

@@ -1,0 +1,63 @@
+========================================================================================================================
+TABLE 4: Attachment Avoidance × LIWC-22 Dimensions (Controlling for Message Volume)
+========================================================================================================================
+N = 105 participants
+Model: LIWC_z ~ log1p(n_messages)_z + Anxiety_z + Avoidance_z
+FDR correction applied to Avoidance coefficients (Benjamini-Hochberg)
+Significant Avoidance effects (FDR q < .05): 0/46
+Significant model change (FDR q < .05): 0/46
+------------------------------------------------------------------------------------------------------------------------
+
+Category        LIWC Variable                 Beta        t          p      p_FDR   FDR   Delta_R2   beta_vol
+------------------------------------------------------------------------------------------------------------------------
+Perception      Past Focus                  -0.249   -2.413     0.0176     0.8111            0.076      0.102
+Perception      Feeling                     -0.176   -1.686     0.0949     0.9422            0.050     -0.093
+Needs           Reward                       0.171    1.614     0.1097     0.9422            0.035     -0.009
+Needs           Curiosity                    0.165    1.550     0.1244     0.9422            0.029     -0.061
+Pronouns        They                         0.142    1.395     0.1660     0.9422            0.067      0.207
+Drives          Power                       -0.137   -1.283     0.2024     0.9422            0.018      0.035
+Pronouns        I-words (self-focus)        -0.135   -1.321     0.1893     0.9422            0.096      0.067
+Summary         Emotional Tone               0.130    1.207     0.2303     0.9422            0.030     -0.080
+Needs           Want                         0.126    1.231     0.2211     0.9422            0.044      0.244
+Perception      Present Focus               -0.112   -1.096     0.2759     0.9422            0.038      0.255
+Needs           Risk                         0.097    0.918     0.3609     0.9422            0.010      0.179
+Social          Friend                       0.093    0.872     0.3851     0.9422            0.013     -0.023
+Social          Total Social                -0.082   -0.815     0.4171     0.9422            0.072     -0.215
+Needs           Lack                        -0.077   -0.730     0.4669     0.9422            0.009      0.177
+Cognition       Certainty                    0.077    0.752     0.4536     0.9422            0.026      0.269
+Summary         Analytical Thinking          0.075    0.743     0.4591     0.9422            0.065     -0.267
+Affect          Negative Tone               -0.074   -0.707     0.4812     0.9422            0.036      0.121
+Affect          Total Affect                -0.074   -0.749     0.4554     0.9422            0.096     -0.235
+Affect          Positive Emotion            -0.071   -0.698     0.4868     0.9422            0.016     -0.305
+Affect          Positive Tone               -0.069   -0.702     0.4846     0.9422            0.075     -0.287
+Cognition       Insight                     -0.065   -0.621     0.5361     0.9422            0.010     -0.200
+Affect          Anger                        0.063    0.592     0.5552     0.9422            0.020      0.083
+Pronouns        You-words                   -0.061   -0.584     0.5607     0.9422            0.052     -0.043
+Perception      Future Focus                -0.058   -0.557     0.5786     0.9422            0.082      0.064
+Affect          Anxiety                     -0.057   -0.539     0.5912     0.9422            0.037     -0.044
+Affect          Sadness                     -0.056   -0.527     0.5991     0.9422            0.021      0.158
+Affect          Negative Emotion            -0.055   -0.537     0.5928     0.9422            0.090      0.115
+Social          Conflict                     0.051    0.484     0.6294     0.9422            0.027      0.092
+Social          Polite                      -0.050   -0.476     0.6354     0.9422            0.040     -0.067
+Social          Prosocial                   -0.040   -0.382     0.7031     0.9422            0.042     -0.108
+Drives          Total Drives                -0.038   -0.359     0.7204     0.9422            0.043      0.031
+Needs           Need                         0.038    0.366     0.7149     0.9422            0.044      0.216
+Social          Social Behavior             -0.034   -0.331     0.7416     0.9422            0.026     -0.240
+Cognition       Tentative                    0.032    0.302     0.7631     0.9422            0.004      0.152
+Cognition       Discrepancy                  0.032    0.303     0.7624     0.9422            0.032     -0.095
+Pronouns        She/He                      -0.026   -0.252     0.8016     0.9422            0.026      0.174
+Drives          Affiliation                  0.025    0.239     0.8114     0.9422            0.091     -0.007
+Cognition       Cognitive Processes          0.022    0.208     0.8355     0.9422            0.004     -0.043
+Summary         Social Status/Confidence    -0.022   -0.208     0.8358     0.9422            0.027     -0.080
+Summary         Authenticity                 0.022    0.215     0.8299     0.9422            0.001      0.309
+Social          Family                      -0.022   -0.203     0.8398     0.9422            0.003     -0.005
+Cognition       Total Cognition              0.016    0.152     0.8792     0.9629            0.007      0.075
+Pronouns        We-words                    -0.012   -0.119     0.9053     0.9684            0.055      0.224
+Perception      Total Perception            -0.004   -0.041     0.9676     0.9987            0.002      0.285
+Drives          Achievement                  0.003    0.025     0.9803     0.9987            0.014      0.027
+Cognition       Causation                    0.000    0.002     0.9987     0.9987            0.006      0.134
+------------------------------------------------------------------------------------------------------------------------
+
+Note: *** p<.001, ** p<.01, * p<.05
+      Beta values are standardized regression coefficients
+      Sorted by absolute Avoidance beta

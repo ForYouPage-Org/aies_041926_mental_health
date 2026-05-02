@@ -1,0 +1,29 @@
+{
+  "eligible_participant_overlap": {
+    "high_anxiety": 49,
+    "high_avoidance": 31,
+    "both_high": 13,
+    "union_high": 67,
+    "both_pct_of_high_anxiety": 26.53,
+    "both_pct_of_high_avoidance": 41.94,
+    "both_pct_of_union": 19.4
+  },
+  "original_sample_overlap": {
+    "sampled_high_anxiety_participants": 23,
+    "sampled_high_avoidance_participants": 6,
+    "participants_in_both_files": 4,
+    "participants_in_both_pct_of_anxiety_sampled": 17.39,
+    "participants_in_both_pct_of_avoidance_sampled": 66.67,
+    "anxiety_conversations_from_both_high_participants": 26,
+    "avoidance_conversations_from_both_high_participants": 69,
+    "anxiety_overlap_conversation_pct": 26.0,
+    "avoidance_overlap_conversation_pct": 69.0,
+    "identical_conversation_ids_in_both_original_files": 1
+  },
+  "exclusive_sample_overlap_check": {
+    "sampled_high_anxiety_only_participants": 15,
+    "sampled_high_avoidance_only_participants": 4,
+    "participants_in_both_files": 0,
+    "identical_conversation_ids_in_both_files": 0
+  }
+}

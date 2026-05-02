@@ -1,0 +1,21 @@
+ECR × AI Attitudes Rigorous Analysis Log
+=========================================
+Timestamp: 2026-01-07 09:14:51
+
+Data Sources:
+- ECR Scores: /Users/marxw/Sirius/FaccT_122925/data/ecr_scores_validated_clean.csv
+- Survey Data: /Users/marxw/Sirius/data/survey_scored.csv
+
+Sample:
+- Complete cases: N = 168
+
+Correlation Analysis:
+- Anxiety significant (FDR): 9/15
+- Avoidance significant (FDR): 2/15
+
+Regression Analysis:
+- Significant models (F-test): 11/15
+- Average R²: 0.067
+- Maximum R²: 0.211
+
+Output: /Users/marxw/Sirius/FaccT_122925/results/260107T0914_ecr_ai_rigorous_analysis

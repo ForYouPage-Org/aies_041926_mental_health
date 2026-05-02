@@ -1,0 +1,3 @@
+Implement Analysis 2 specifically only NRC VAD 2025 on the dataset,  DONOT construct one yourself dictionary. NRC VAD is in folder @FaccT_122925/NRC-VAD-Lexicon-v2.1  filter user prompts for words less than 20 to filter out copy pasta and save the filtered user prompts only data as a csv and conduct correlation analysis same as before save 2 key data tables as txt and 2 key visualizations
+
+reference old script for data source @analysis_102025/triangulate_ecr_chat_behavior_ENHANCED.py 

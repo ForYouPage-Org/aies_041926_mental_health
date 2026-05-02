@@ -1,0 +1,12 @@
+{
+  "N": 168,
+  "ECR_Anxiety_M": 4.054563492063491,
+  "ECR_Anxiety_SD": 1.1044121613595428,
+  "ECR_Avoidance_M": 3.1904761904761907,
+  "ECR_Avoidance_SD": 0.9988825616747292,
+  "n_sig_anxiety_corr": 9,
+  "n_sig_avoidance_corr": 2,
+  "n_sig_regression": 11,
+  "max_r2": 0.21127499234886515,
+  "timestamp": "2026-01-07T12:31:39.078760"
+}

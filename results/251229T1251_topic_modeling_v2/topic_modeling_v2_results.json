@@ -1,0 +1,412 @@
+{
+  "classification_summary": {
+    "total_messages": 67100,
+    "academic_count": 11340,
+    "academic_pct": 16.90014903129657,
+    "personal_count": 3273,
+    "personal_pct": 4.87779433681073,
+    "ambiguous_count": 52487,
+    "ambiguous_pct": 78.2220566318927
+  },
+  "group_stats": {
+    "high_anxiety": {
+      "total": 41767,
+      "academic": 7333.0,
+      "academic_pct": 17.556922929585557,
+      "personal": 2417.0,
+      "personal_pct": 5.786865228529701,
+      "ambiguous": 32017.0,
+      "ambiguous_pct": 76.65621184188474
+    },
+    "low_anxiety": {
+      "total": 25333,
+      "academic": 4007.0,
+      "academic_pct": 15.817313385702445,
+      "personal": 856.0,
+      "personal_pct": 3.378991828839853,
+      "ambiguous": 20470.0,
+      "ambiguous_pct": 80.80369478545771
+    },
+    "high_avoidance": {
+      "total": 34126,
+      "academic": 5581.0,
+      "academic_pct": 16.35409951356737,
+      "personal": 2109.0,
+      "personal_pct": 6.180038680185196,
+      "ambiguous": 26436.0,
+      "ambiguous_pct": 77.46586180624743
+    },
+    "low_avoidance": {
+      "total": 32974,
+      "academic": 5759.0,
+      "academic_pct": 17.465275671741374,
+      "personal": 1164.0,
+      "personal_pct": 3.5300539819251533,
+      "ambiguous": 26051.0,
+      "ambiguous_pct": 79.00467034633347
+    }
+  },
+  "personal_topics": {
+    "high_anxiety": {
+      "group_name": "high_anxiety",
+      "category_filter": "personal",
+      "total_messages": 2417,
+      "n_clusters": 2,
+      "noise_pct": 23.334712453454696,
+      "clusters": [
+        {
+          "cluster_id": "0",
+          "n_messages": 1836,
+          "pct_of_total": 75.96193628465039,
+          "keywords": "feel, brother, help, like, im, love, just, want",
+          "topic_label": "Emotional Support Conversation",
+          "representative_samples": [
+            "i wanted to relax talking with you but now i just feel upset with how you appraoched this",
+            "sure feel and not think like that will effin help",
+            "brother i feel im relying on you so much i feel so dumb"
+          ]
+        },
+        {
+          "cluster_id": "1",
+          "n_messages": 17,
+          "pct_of_total": 0.703351261894911,
+          "keywords": "msci, emerging, markets, emerging markets, etf, msci world, world, ftse",
+          "topic_label": "Emerging Markets ETFs",
+          "representative_samples": [
+            "Okay can I buy MSCI World ex US and FTSE Emerging markets Whether will it include Soutrh Horea",
+            "Can I buy MSCI world ex US in addition to the S&P 500 which covers emerging market too?",
+            "WHat about X trackers ex US and and X trackers Emerging Markets"
+          ]
+        }
+      ]
+    },
+    "low_anxiety": {
+      "group_name": "low_anxiety",
+      "category_filter": "personal",
+      "total_messages": 856,
+      "n_clusters": 0,
+      "noise_pct": 100.0,
+      "clusters": []
+    },
+    "high_avoidance": {
+      "group_name": "high_avoidance",
+      "category_filter": "personal",
+      "total_messages": 2109,
+      "n_clusters": 2,
+      "noise_pct": 22.712185870080607,
+      "clusters": [
+        {
+          "cluster_id": "0",
+          "n_messages": 1612,
+          "pct_of_total": 76.43432906590802,
+          "keywords": "feel, brother, im, like, help, just, want, love",
+          "topic_label": "Emotional Support Needed",
+          "representative_samples": [
+            "i wanted to relax talking with you but now i just feel upset with how you appraoched this",
+            "I am a bit sad from the whole situation",
+            "Brother I just want to be cured I want to be normal I don\u2019t want to be sad"
+          ]
+        },
+        {
+          "cluster_id": "1",
+          "n_messages": 18,
+          "pct_of_total": 0.8534850640113799,
+          "keywords": "msci, emerging, markets, emerging markets, etf, world, msci world, ftse",
+          "topic_label": "Emerging Markets Investing",
+          "representative_samples": [
+            "Okay can I buy MSCI World ex US and FTSE Emerging markets Whether will it include Soutrh Horea",
+            "Can I buy MSCI world ex US in addition to the S&P 500 which covers emerging market too?",
+            "WHat about X trackers ex US and and X trackers Emerging Markets"
+          ]
+        }
+      ]
+    },
+    "low_avoidance": {
+      "group_name": "low_avoidance",
+      "category_filter": "personal",
+      "total_messages": 1164,
+      "n_clusters": 3,
+      "noise_pct": 82.73195876288659,
+      "clusters": [
+        {
+          "cluster_id": "1",
+          "n_messages": 157,
+          "pct_of_total": 13.487972508591065,
+          "keywords": "story, help, love, character, situation, write, problem, question",
+          "topic_label": "Story Writing Assistance Needed",
+          "representative_samples": [
+            "can u start the story in other sentences",
+            "write the story in 6 sentence",
+            "add onto my sentence and incorpate the answers to 1 2 and 3 to the story"
+          ]
+        },
+        {
+          "cluster_id": "2",
+          "n_messages": 26,
+          "pct_of_total": 2.2336769759450172,
+          "keywords": "feel, pain, bit, hurt, sad, like, feel bit, feeling",
+          "topic_label": "Emotional Expression Feedback",
+          "representative_samples": [
+            "yh i do feel a bit nauseous",
+            "i feel full tho",
+            "i do have pain too but it\u2019s not awful"
+          ]
+        },
+        {
+          "cluster_id": "0",
+          "n_messages": 18,
+          "pct_of_total": 1.5463917525773196,
+          "keywords": "therapy, stress, psychodynamic, area, psychodynamic therapy, music therapy, music, therapy psychodynamic",
+          "topic_label": "Therapy and Stress Management",
+          "representative_samples": [
+            "Is stress clinical psychology though",
+            "Is talking therapy a psychodynamic therapy",
+            "Psychodynamic therapy and defence mechanisms"
+          ]
+        }
+      ]
+    }
+  },
+  "ambiguous_topics": {
+    "high_anxiety": {
+      "group_name": "high_anxiety",
+      "category_filter": "ambiguous",
+      "total_messages": 3000,
+      "n_clusters": 6,
+      "noise_pct": 91.56666666666666,
+      "clusters": [
+        {
+          "cluster_id": "2",
+          "n_messages": 84,
+          "pct_of_total": 2.8000000000000003,
+          "keywords": "que, la, en, puedes, para, dar, el, puedes dar",
+          "topic_label": "Spanish Language Assistance",
+          "representative_samples": [
+            "me puedes dar un ejemplo de?",
+            "me puedes ordenar alfabeticamente las siguientes referencias?",
+            "que puede proceder en la siguiente toma?"
+          ]
+        },
+        {
+          "cluster_id": "4",
+          "n_messages": 84,
+          "pct_of_total": 2.8000000000000003,
+          "keywords": "break, make, words, sentences, references, write, simple, simple language",
+          "topic_label": "Simple Language Assistance",
+          "representative_samples": [
+            "make it simpler and less words",
+            "answer in few sentences",
+            "make this more concise"
+          ]
+        },
+        {
+          "cluster_id": "3",
+          "n_messages": 25,
+          "pct_of_total": 0.8333333333333334,
+          "keywords": "czy, na, mo\u017cna, czy mo\u017cna, mi, daj, zrobi\u0107, tym",
+          "topic_label": "I can provide a SHORT topic label based on the key",
+          "representative_samples": [
+            "Co zrobi\u0107 jak przypadkowo zjem za du\u017co i przekrocz\u0119 swoj\u0105 liczb\u0119 kalorii?",
+            "czy mozna polewac wode utleniona na skore zeby ja odkazic",
+            "Ile mo\u017cna zrobi\u0107 krok\u00f3w z pi\u0142k\u0105 w koszyk\u00f3wce"
+          ]
+        },
+        {
+          "cluster_id": "0",
+          "n_messages": 24,
+          "pct_of_total": 0.8,
+          "keywords": "\u8f49\u82f1\u6587, \u8f49\u6210\u82f1\u6587, \u8acb\u554f\u6211\u9700\u8981\u9010\u5c64\u4ed8\u9322 \u5b9a\u4fc2\u6211\u53ef\u4ee5\u884c\u5b8c\u4e00\u6574\u68df\u6a13\u518d\u4ed8\u9322, \u8acb\u554f\u6211\u9700\u8981\u9010\u5c64\u4ed8\u9322, \u5b9a\u4fc2\u6211\u53ef\u4ee5\u884c\u5b8c\u4e00\u6574\u68df\u6a13\u518d\u4ed8\u9322",
+          "topic_label": "Building House Financing",
+          "representative_samples": [
+            "\u554f\u4f62\u4fc2\u8981\u5230\u6bcf\u4e00\u5c64\u7d50\u7b97\u5b9a\u4fc2\u53ef\u4ee5\u884c\u5b8c\u6210\u5e62\u4e00\u6b21\u904e\u4ffe\u9322 \u8f49\u65e5\u6587",
+            "\u6211\u54cb\u7559\u5497\u5572\u96fb\u8a71\u55ba\u5165\u908a\u6709\u5187\u8fa6\u6cd5\u651e\u8fd4\uff1f",
+            "\u8acb\u8a73\u7d30\u8aaa\u660e\u6211\u64c1\u6709\u6bcf\u689d\u901a\u9053\u80cc\u5f8c\u7684\u610f\u7fa9\uff0c\u53ca\u6211\u600e\u80fd\u597d\u597d\u904b\u7528\u4ed6"
+          ]
+        },
+        {
+          "cluster_id": "5",
+          "n_messages": 19,
+          "pct_of_total": 0.6333333333333333,
+          "keywords": "answer, option, option correct, correct, step, explain, step step, step answer",
+          "topic_label": "Multiple Choice Question Answer",
+          "representative_samples": [
+            "But answer is A or D",
+            "but the answer is D",
+            "but the answer is D"
+          ]
+        },
+        {
+          "cluster_id": "1",
+          "n_messages": 17,
+          "pct_of_total": 0.5666666666666667,
+          "keywords": "ask, thank, say, today, want, subin, rest, ask today",
+          "topic_label": "Relationship Advice Seeking",
+          "representative_samples": [
+            "Thank you for always helping me!! \n\nHow would I ask him \n\n\"What's today's TMI?\"",
+            "How would I ask him for today's song recommendation",
+            "How would I ask him\n\n\"What's today's TMI?\""
+          ]
+        }
+      ]
+    },
+    "low_anxiety": {
+      "group_name": "low_anxiety",
+      "category_filter": "ambiguous",
+      "total_messages": 3000,
+      "n_clusters": 3,
+      "noise_pct": 84.8,
+      "clusters": [
+        {
+          "cluster_id": "1",
+          "n_messages": 260,
+          "pct_of_total": 8.666666666666668,
+          "keywords": "que, para, la, el, es, en, como, una",
+          "topic_label": "Spanish Language Assistance",
+          "representative_samples": [
+            "una pregunta as\u00ed de especifica pero m\u00e1s corta",
+            "sinonimos de refugio",
+            "en el caso planteado, c\u00f3mo funciona el fideicomiso?"
+          ]
+        },
+        {
+          "cluster_id": "0",
+          "n_messages": 166,
+          "pct_of_total": 5.533333333333333,
+          "keywords": "make, sentences, sentence, words, write, answer, answers, short",
+          "topic_label": "Short Answers Needed",
+          "representative_samples": [
+            "make it brief and simplify it",
+            "make it brief",
+            "make it brief"
+          ]
+        },
+        {
+          "cluster_id": "2",
+          "n_messages": 30,
+          "pct_of_total": 1.0,
+          "keywords": "ja, mit\u00e4, keksi, kun, miten, potilaan, joka, potilas",
+          "topic_label": "Medical Information Request",
+          "representative_samples": [
+            "Miksi suuritehoisuus aiheuttaa enemm\u00e4n h\u00e4vikki\u00e4 pitkiss\u00e4 johdoissa",
+            "Kerro kuinka raportoit potilaasta ISBARin mukaisesti.",
+            "potilaan anamneesin kartoittamiseen: Mit\u00e4 potilaalta tulisi kysy\u00e4? Mit\u00e4 tulisi kysy\u00e4 oireista? Miten saat parhaiten kokonaiskuvan tilanteesta?"
+          ]
+        }
+      ]
+    },
+    "high_avoidance": {
+      "group_name": "high_avoidance",
+      "category_filter": "ambiguous",
+      "total_messages": 3000,
+      "n_clusters": 6,
+      "noise_pct": 90.76666666666667,
+      "clusters": [
+        {
+          "cluster_id": "4",
+          "n_messages": 122,
+          "pct_of_total": 4.066666666666666,
+          "keywords": "make, references, shorter, break, create, sentences, simple, language",
+          "topic_label": "Concise Language Creation",
+          "representative_samples": [
+            "make this concise",
+            "make it more concise",
+            "write a brief description of the above text"
+          ]
+        },
+        {
+          "cluster_id": "3",
+          "n_messages": 78,
+          "pct_of_total": 2.6,
+          "keywords": "que, en, se, como, del, para, los, la",
+          "topic_label": "Language Learning Assistance",
+          "representative_samples": [
+            "ocupo ayuda en que me resuelvas las preguntas de un cuestionario",
+            "N\u00e3o achas que parece mal perguntar aos recrutadores?",
+            "que sean articulos recientes por favor"
+          ]
+        },
+        {
+          "cluster_id": "5",
+          "n_messages": 25,
+          "pct_of_total": 0.8333333333333334,
+          "keywords": "cartilage, chondrocytes, articular, articular cartilage, sox9, acan, 3d, saying",
+          "topic_label": "Cartilage Development Research",
+          "representative_samples": [
+            "Should I see more chondrocytes in cartilage of sox9 Ko mice",
+            "but many articles say that 3D chondrocytes show higher anabolism and sox9",
+            "could it also be that 3D chondrocytes have trouble with proliferating, and Col2A1 expression relies on cell proliferation?"
+          ]
+        },
+        {
+          "cluster_id": "2",
+          "n_messages": 19,
+          "pct_of_total": 0.6333333333333333,
+          "keywords": "\u8f49\u65e5\u6587",
+          "topic_label": "Japanese Language Translation",
+          "representative_samples": [
+            "\u5982\u4f55\u53bb\u6dfa\u8349\u7ad9\u8f49\u6210\u65e5\u6587\uff1f",
+            "\u4ee5\u4e0b\u5c0d\u8a71\uff0c\u5982\u679c\u6211\u8b1b\u4e2d\u6587\u4f60\u5e6b\u6211\u7ffb\u8b6f\u6210\u65e5\u6587\u6211\u8b1b\u65e5\u6587\u4f60\u5e6b\u6211\u7ffb\u8b6f\u6210\u4e2d\u6587",
+            "\u9019\u500b\u53ef\u4ee5\u51fa\u5165\u5883\u55ce\uff1f\u4e0a\u98db\u6a5f\uff1f"
+          ]
+        },
+        {
+          "cluster_id": "0",
+          "n_messages": 18,
+          "pct_of_total": 0.6,
+          "keywords": "jest, czy, mi, uwagi, jak, si\u0119, kr\u00f3tko, czym",
+          "topic_label": "I can provide you with a short topic label based o",
+          "representative_samples": [
+            "do jakiej wysoko\u015bci mozliwa jest aklimatyzacja?",
+            "Na czym polega zale\u017cno\u015b\u0107 mi\u0119dzy poziomem pobudzenia uwagi ostrzegawczej a poziomem efektywno\u015bci uczenia si\u0119?",
+            "czy floryda by\u0142a obj\u0119ta zlodowaceniem"
+          ]
+        },
+        {
+          "cluster_id": "1",
+          "n_messages": 15,
+          "pct_of_total": 0.5,
+          "keywords": "answer, add, tau, 25, 140 07, 140, 07, 75",
+          "topic_label": "Financial Transaction History",
+          "representative_samples": [
+            "3447.50\n\n5372.00\n\n3447.50\n\n5,369.00\n\n3,697.50\n\n6,722.00\n\n\n3,477.50\n\n3,586.00\n\n3,037.25\n\n3,697.50\n\n2,207.00\n\n3,376.00\n\n3,697.50",
+            "add these: $11,377.67\n$11,345.01\n$4,407.99",
+            "my answer is 0.4483"
+          ]
+        }
+      ]
+    },
+    "low_avoidance": {
+      "group_name": "low_avoidance",
+      "category_filter": "ambiguous",
+      "total_messages": 3000,
+      "n_clusters": 2,
+      "noise_pct": 68.30000000000001,
+      "clusters": [
+        {
+          "cluster_id": "0",
+          "n_messages": 936,
+          "pct_of_total": 31.2,
+          "keywords": "que, make, write, la, para, en, answer, puedes",
+          "topic_label": "Project Name Suggestions",
+          "representative_samples": [
+            "me puedes dar opciones de nombre de proyecto",
+            "holi, te puedo dar unas instrucciones para que analices?",
+            "me agrada m\u00e1s esto, puedes llenar todos los campos de brief acorde a?"
+          ]
+        },
+        {
+          "cluster_id": "1",
+          "n_messages": 15,
+          "pct_of_total": 0.5,
+          "keywords": "uk, does, scotland, rights, human rights, human, act, legislation",
+          "topic_label": "Human Rights in UK",
+          "representative_samples": [
+            "How does partial seperation of power affect human rights uk",
+            "Legislation uk",
+            "How does this influence uk governments ability to infringe on human rights"
+          ]
+        }
+      ]
+    }
+  }
+}

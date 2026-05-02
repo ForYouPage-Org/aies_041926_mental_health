@@ -1,0 +1,41 @@
+============================================================
+CONVERSATION ANNOTATION SUMMARY
+============================================================
+
+Total conversations annotated: 100
+Model used: ministral-3:8b
+
+TOPIC DISTRIBUTION:
+----------------------------------------
+  Seeking Information        51 ( 51.0%)
+  Technical Help             24 ( 24.0%)
+  Practical Guidance         10 ( 10.0%)
+  Writing                     7 (  7.0%)
+  TOPIC                       4 (  4.0%)
+  Self-Expression             4 (  4.0%)
+
+
+SUBCATEGORY DISTRIBUTION:
+--------------------------------------------------
+  Specific Info                             50 ( 50.0%)
+  Computer Programming                       8 (  8.0%)
+  Mathematical Calculation                   8 (  8.0%)
+  Data Analysis                              6 (  6.0%)
+  Creative Ideation                          3 (  3.0%)
+  How-To Advice                              3 (  3.0%)
+  Greetings and Chitchat                     2 (  2.0%)
+  Relationships and Personal Reflection      2 (  2.0%)
+  Edit or Critique Provided Text**           2 (  2.0%)
+  Tutoring or Teaching                       2 (  2.0%)
+  Other/Unknown: Unclear                     2 (  2.0%)
+  Argument or Summary Generation**           2 (  2.0%)
+  Self-Expression: Games and Role Play       1 (  1.0%)
+  Health, Fitness, Beauty, or Self-Care      1 (  1.0%)
+  Write Fiction**                            1 (  1.0%)
+  Seeking Information                        1 (  1.0%)
+  Cooking and Recipes                        1 (  1.0%)
+  Creative Ideation**                        1 (  1.0%)
+  Write Fiction                              1 (  1.0%)
+  Technical Help: Computer Programming       1 (  1.0%)
+  Edit or Critique Provided Text             1 (  1.0%)
+  How-To Advice**                            1 (  1.0%)
