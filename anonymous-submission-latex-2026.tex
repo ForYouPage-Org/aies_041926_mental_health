@@ -198,22 +198,22 @@ Using LIWC-22 averages from $N_{\mathrm{msg}}=19{,}930$ user messages under 20 w
 \setlength{\tabcolsep}{4pt}
 \begin{tabular}{p{1.9cm}p{2.5cm}cccc}
 \toprule
-LIWC-22  & Theoretical & Pred. & Obs. & $\eta^2$ & Sig. \\
-Feature  & Frame       & Dir.  & Dir. &          & FDR  \\
+LIWC-22  & Theoretical & Canon. & Obs. & $\eta^2$ & Sig. \\
+Feature  & Frame       & Dir.   & Dir. &          & FDR  \\
 \midrule
 \multicolumn{6}{l}{\textit{Cluster 1: Canonical depression-language markers}} \\
 I-words           & Self-referential rumination       & $\uparrow$ & $\uparrow$ & .096 & * \\
 Negative emotion  & Negative affectivity              & $\uparrow$ & $\uparrow$ & .082 & * \\
 Future focus      & Worry-as-future-thinking          & $\uparrow$ & $\uparrow$ & .089 & * \\
 \midrule
-\multicolumn{6}{l}{\textit{Cluster 2: Interpersonal markers (alt.\ H: $\uparrow$ in GPCA)}} \\
-We-words          & Affiliative language              & $\uparrow_\mathrm{alt}$ & $\uparrow$ & \textbf{.163} & ** \\
-They-pronouns     & Other-focused rumination          & $\uparrow_\mathrm{alt}$ & $\uparrow$ & .061 & $^{\dagger}$ \\
-Affiliation       & Affiliative language              & $\uparrow_\mathrm{alt}$ & $\uparrow$ & .093 & * \\
-Total social      & Social references                 & $\uparrow_\mathrm{alt}$ & $\uparrow$ & .079 & * \\
+\multicolumn{6}{l}{\textit{Cluster 2: Interpersonal markers}} \\
+We-words          & Affiliative language              & $\downarrow$   & $\uparrow$ & \textbf{.163} & ** \\
+They-pronouns     & Other-focused rumination          & $\updownarrow$ & $\uparrow$ & .061 & $^{\dagger}$ \\
+Affiliation       & Affiliative language              & $\downarrow$   & $\uparrow$ & .093 & * \\
+Total social      & Social references                 & $\updownarrow$ & $\uparrow$ & .079 & * \\
 \bottomrule
 \end{tabular}
-\caption{\emph{a priori} primary LIWC-22 features for RQ2, with predictions and observed effects across the four PHQ-4 total-distress severity tiers (one-way ANOVA, $N=104$, $df_b=3$, $df_w=100$). \textbf{Pred.\ Dir.} = predicted direction with depression severity. For Cluster 1, prediction follows canonical depression-language theory: $\uparrow$ in non-AI-mediated text. For Cluster 2, $\uparrow_\mathrm{alt}$ marks the alternative-hypothesis prediction (canonical direction is $\downarrow$ for we-words and affiliation per \citet{tackman2019pronouns,guntuku2022loneliness}; direction-ambiguous for they-pronouns and total social). \textbf{Obs.\ Dir.} = observed direction inferred from group means and the linear-trend test. \textbf{Sig.\ FDR} = Benjamini--Hochberg FDR within the 14-test primary family of 7 features $\times$ 2 predictors: ** $p_{\mathrm{FDR}}<.01$, * $p_{\mathrm{FDR}}<.05$, $^{\dagger}$ $p_{\mathrm{FDR}}<.10$. \emph{All seven Cluster-1 and -2 features show observed direction matching prediction; six of seven survive FDR correction; the largest effect is on we-words ($\eta^2=.163$), one of the canonically-protective features that inverts in the GPCA context.} Sources for the canonical-direction column: T19 = \citet{tackman2019pronouns}; EH17 = \citet{edwards2017pronouns}; E18 = \citet{eichstaedt2018facebook}; TW23 = \citet{thorstad2023future}; G22 = \citet{guntuku2022loneliness}; NH08 = \citet{nolenhoeksema2008rumination}.}
+\caption{\emph{a priori} primary LIWC-22 features for RQ2: direct comparison of the canonical direction reported in the existing depression-language literature against the observed direction in our GPCA corpus. One-way ANOVA across the four PHQ-4 total-distress severity tiers ($N=104$, $df_b=3$, $df_w=100$). \textbf{Canon.\ Dir.} = direction of association with depression in non-AI-mediated text per the cited source: $\uparrow$ canonical positive, $\downarrow$ canonical negative (typically protective), $\updownarrow$ direction-ambiguous in the literature. \textbf{Obs.\ Dir.} = observed direction inferred from group means and the linear-trend test in our data. \textbf{Sig.\ FDR} = Benjamini--Hochberg FDR within the 14-test primary family of 7 features $\times$ 2 predictors: ** $p_{\mathrm{FDR}}<.01$, * $p_{\mathrm{FDR}}<.05$, $^{\dagger}$ $p_{\mathrm{FDR}}<.10$. \emph{Cluster 1 (3/3) replicates canonical direction. Cluster 2 inverts canonical direction in 2/4 cases (we-words and affiliation, both canonically $\downarrow$ in non-AI text) and resolves the direction-ambiguous markers (they-pronouns, total social) toward $\uparrow$ in the GPCA context.} Sources for the canonical-direction column: T19 = \citet{tackman2019pronouns}; EH17 = \citet{edwards2017pronouns}; E18 = \citet{eichstaedt2018facebook}; TW23 = \citet{thorstad2023future}; G22 = \citet{guntuku2022loneliness}; NH08 = \citet{nolenhoeksema2008rumination}.}
 \label{tab:rq2_hypotheses}
 \end{table}
 
